@@ -1,5 +1,65 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background: green;
+}
+
+.card-inputs-button {
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    text-align: center;
+    color: antiquewhite;
+}
+.input-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 600px;
+    margin: 50px auto;
+    color:antiquewhite
+
+}
+
+#card {
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 50px auto;
+
+}
+
+#numero {
+    height: 60%;
+    width: 100%;
+    font-size: 250px;
+    text-align: center;
+}
+
+#figuraIzquierda {
+    height: 20%;
+    text-align: left;
+    width: 100%;
+    font-size: 100px;
+    padding-left: 20px;
+}
+
+#figuraDerecha {
+    height: 20%;
+    width: 100%;
+    text-align: left;
+    font-size: 100px;
+    padding-left: 20px;
+    transform: rotate(180deg);
+}
+
+#btn {
+    background-color:antiquewhite;
+    margin-top: 10px;
+    font-size: 40px;
+    border-radius: 20px;
+
 }
